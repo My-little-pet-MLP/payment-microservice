@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es2020",                                  /* Define a versão do JavaScript que será emitida. */
+    "module": "commonjs",                                /* Define o formato de módulo gerado. */
+    "esModuleInterop": true,                             /* Facilita a importação de módulos CommonJS. */
+    "forceConsistentCasingInFileNames": true,            /* Garante a consistência de maiúsculas/minúsculas nos nomes dos arquivos. */
+    "strict": true,                                      /* Habilita todas as verificações de tipo estritas. */
+    "skipLibCheck": true ,                                /* Ignora a verificação de tipos em arquivos .d.ts. */
+    "baseUrl": "./",                                     /* Specify the base directory to resolve non-relative module names. */
+    "paths": {
+      "@/*": ["./src/*"]
+    },       
+  }
+  
+}
